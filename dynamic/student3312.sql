@@ -48,5 +48,5 @@ CREATE TABLE IF NOT EXISTS homework (
 );
 
 INSERT INTO users (name, lastname, username, email, password, role) VALUES 
-('Admin', 'Admin1', 'admin', 'admin@gmail.com', 'admin123', 0),
+('A', 'A', 'A', 'a@gmail.com', 'aaaaa', 0),
 ('Iraklis', 'Fountoukidis', 'ifountouk', 'irakliff@csd.auth.gr', 'iraklis123', 1);
