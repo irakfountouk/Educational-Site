@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Επικοινωνία - Μαθηματική Ανάλυση</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="to-top" onclick="scrollToTop()">
+    <a href="#">Πήγαινε στην κορυφή</a>
+</div>
+
+<header class="header" id="top">
+    <h1>Επικοινωνία</h1>
+</header>
+
+<main class="flex-content">
+    <nav class="sidebar">
+        <ul>
+            <li><a href="index.html">Αρχική</a></li>
+            <li><a href="announcements.html">Ανακοινώσεις</a></li>
+            <li><a class="active" href="contact.html">Επικοινωνία</a></li>
+            <li><a href="documents.html">Έγγραφα</a></li>
+            <li><a href="homework.html">Εργασίες</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <div class="title">
+            <h2>Αποστολή μηνύματος μέσω web φόρμας</h2>
+        </div>
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="sender" placeholder="Όνομα">
+            <input type="text" name="subject" placeholder="Θέμα">
+            <textarea name="text" placeholder="Μήνυμα"></textarea>
+            <button type="submit" name="submit">Αποστολή</button>
+        </form>
+        <div class="divider m-t-b-30"></div>
+        <div class="title">
+            <h2>Αποστολή email απευθείας</h2>
+            <p>Μπορείτε να μας στείλετε email στη διεύθυνση <a href="mailto:tutor@csd.auth.test.gr">tutor@csd.auth.test.gr</a> από τον προσωπικό σας λογαριασμό email.</p>
+        </div>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
